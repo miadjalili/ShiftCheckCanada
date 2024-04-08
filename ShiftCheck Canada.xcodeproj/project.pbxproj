@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		942E109C2BC3BD01001E29DE /* ShiftCheck_CanadaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942E109B2BC3BD01001E29DE /* ShiftCheck_CanadaApp.swift */; };
+		942E109E2BC3BD01001E29DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942E109D2BC3BD01001E29DE /* ContentView.swift */; };
+		942E10A02BC3BD02001E29DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942E109F2BC3BD02001E29DE /* Assets.xcassets */; };
+		942E10A42BC3BD02001E29DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942E10A32BC3BD02001E29DE /* Preview Assets.xcassets */; };
+		942E10AE2BC3BD03001E29DE /* ShiftCheck_CanadaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942E10AD2BC3BD03001E29DE /* ShiftCheck_CanadaTests.swift */; };
+		942E10B82BC3BD03001E29DE /* ShiftCheck_CanadaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942E10B72BC3BD03001E29DE /* ShiftCheck_CanadaUITests.swift */; };
+		942E10BA2BC3BD03001E29DE /* ShiftCheck_CanadaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942E10B92BC3BD03001E29DE /* ShiftCheck_CanadaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		942E10AA2BC3BD03001E29DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 942E10902BC3BD01001E29DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 942E10972BC3BD01001E29DE;
+			remoteInfo = "ShiftCheck Canada";
+		};
+		942E10B42BC3BD03001E29DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 942E10902BC3BD01001E29DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 942E10972BC3BD01001E29DE;
+			remoteInfo = "ShiftCheck Canada";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		942E10982BC3BD01001E29DE /* ShiftCheck Canada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShiftCheck Canada.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		942E109B2BC3BD01001E29DE /* ShiftCheck_CanadaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftCheck_CanadaApp.swift; sourceTree = "<group>"; };
+		942E109D2BC3BD01001E29DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		942E109F2BC3BD02001E29DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		942E10A12BC3BD02001E29DE /* ShiftCheck_Canada.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShiftCheck_Canada.entitlements; sourceTree = "<group>"; };
+		942E10A32BC3BD02001E29DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		942E10A92BC3BD03001E29DE /* ShiftCheck CanadaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShiftCheck CanadaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		942E10AD2BC3BD03001E29DE /* ShiftCheck_CanadaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftCheck_CanadaTests.swift; sourceTree = "<group>"; };
+		942E10B32BC3BD03001E29DE /* ShiftCheck CanadaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShiftCheck CanadaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		942E10B72BC3BD03001E29DE /* ShiftCheck_CanadaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftCheck_CanadaUITests.swift; sourceTree = "<group>"; };
+		942E10B92BC3BD03001E29DE /* ShiftCheck_CanadaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftCheck_CanadaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		942E10952BC3BD01001E29DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942E10A62BC3BD03001E29DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942E10B02BC3BD03001E29DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		942E108F2BC3BD01001E29DE = {
+			isa = PBXGroup;
+			children = (
+				942E109A2BC3BD01001E29DE /* ShiftCheck Canada */,
+				942E10AC2BC3BD03001E29DE /* ShiftCheck CanadaTests */,
+				942E10B62BC3BD03001E29DE /* ShiftCheck CanadaUITests */,
+				942E10992BC3BD01001E29DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		942E10992BC3BD01001E29DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				942E10982BC3BD01001E29DE /* ShiftCheck Canada.app */,
+				942E10A92BC3BD03001E29DE /* ShiftCheck CanadaTests.xctest */,
+				942E10B32BC3BD03001E29DE /* ShiftCheck CanadaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		942E109A2BC3BD01001E29DE /* ShiftCheck Canada */ = {
+			isa = PBXGroup;
+			children = (
+				942E109B2BC3BD01001E29DE /* ShiftCheck_CanadaApp.swift */,
+				942E109D2BC3BD01001E29DE /* ContentView.swift */,
+				942E109F2BC3BD02001E29DE /* Assets.xcassets */,
+				942E10A12BC3BD02001E29DE /* ShiftCheck_Canada.entitlements */,
+				942E10A22BC3BD02001E29DE /* Preview Content */,
+			);
+			path = "ShiftCheck Canada";
+			sourceTree = "<group>";
+		};
+		942E10A22BC3BD02001E29DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				942E10A32BC3BD02001E29DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		942E10AC2BC3BD03001E29DE /* ShiftCheck CanadaTests */ = {
+			isa = PBXGroup;
+			children = (
+				942E10AD2BC3BD03001E29DE /* ShiftCheck_CanadaTests.swift */,
+			);
+			path = "ShiftCheck CanadaTests";
+			sourceTree = "<group>";
+		};
+		942E10B62BC3BD03001E29DE /* ShiftCheck CanadaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				942E10B72BC3BD03001E29DE /* ShiftCheck_CanadaUITests.swift */,
+				942E10B92BC3BD03001E29DE /* ShiftCheck_CanadaUITestsLaunchTests.swift */,
+			);
+			path = "ShiftCheck CanadaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		942E10972BC3BD01001E29DE /* ShiftCheck Canada */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942E10BD2BC3BD03001E29DE /* Build configuration list for PBXNativeTarget "ShiftCheck Canada" */;
+			buildPhases = (
+				942E10942BC3BD01001E29DE /* Sources */,
+				942E10952BC3BD01001E29DE /* Frameworks */,
+				942E10962BC3BD01001E29DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShiftCheck Canada";
+			productName = "ShiftCheck Canada";
+			productReference = 942E10982BC3BD01001E29DE /* ShiftCheck Canada.app */;
+			productType = "com.apple.product-type.application";
+		};
+		942E10A82BC3BD03001E29DE /* ShiftCheck CanadaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942E10C02BC3BD03001E29DE /* Build configuration list for PBXNativeTarget "ShiftCheck CanadaTests" */;
+			buildPhases = (
+				942E10A52BC3BD03001E29DE /* Sources */,
+				942E10A62BC3BD03001E29DE /* Frameworks */,
+				942E10A72BC3BD03001E29DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				942E10AB2BC3BD03001E29DE /* PBXTargetDependency */,
+			);
+			name = "ShiftCheck CanadaTests";
+			productName = "ShiftCheck CanadaTests";
+			productReference = 942E10A92BC3BD03001E29DE /* ShiftCheck CanadaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		942E10B22BC3BD03001E29DE /* ShiftCheck CanadaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942E10C32BC3BD03001E29DE /* Build configuration list for PBXNativeTarget "ShiftCheck CanadaUITests" */;
+			buildPhases = (
+				942E10AF2BC3BD03001E29DE /* Sources */,
+				942E10B02BC3BD03001E29DE /* Frameworks */,
+				942E10B12BC3BD03001E29DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				942E10B52BC3BD03001E29DE /* PBXTargetDependency */,
+			);
+			name = "ShiftCheck CanadaUITests";
+			productName = "ShiftCheck CanadaUITests";
+			productReference = 942E10B32BC3BD03001E29DE /* ShiftCheck CanadaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		942E10902BC3BD01001E29DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					942E10972BC3BD01001E29DE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					942E10A82BC3BD03001E29DE = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 942E10972BC3BD01001E29DE;
+					};
+					942E10B22BC3BD03001E29DE = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 942E10972BC3BD01001E29DE;
+					};
+				};
+			};
+			buildConfigurationList = 942E10932BC3BD01001E29DE /* Build configuration list for PBXProject "ShiftCheck Canada" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 942E108F2BC3BD01001E29DE;
+			productRefGroup = 942E10992BC3BD01001E29DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				942E10972BC3BD01001E29DE /* ShiftCheck Canada */,
+				942E10A82BC3BD03001E29DE /* ShiftCheck CanadaTests */,
+				942E10B22BC3BD03001E29DE /* ShiftCheck CanadaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		942E10962BC3BD01001E29DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942E10A42BC3BD02001E29DE /* Preview Assets.xcassets in Resources */,
+				942E10A02BC3BD02001E29DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942E10A72BC3BD03001E29DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942E10B12BC3BD03001E29DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		942E10942BC3BD01001E29DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942E109E2BC3BD01001E29DE /* ContentView.swift in Sources */,
+				942E109C2BC3BD01001E29DE /* ShiftCheck_CanadaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942E10A52BC3BD03001E29DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942E10AE2BC3BD03001E29DE /* ShiftCheck_CanadaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942E10AF2BC3BD03001E29DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942E10BA2BC3BD03001E29DE /* ShiftCheck_CanadaUITestsLaunchTests.swift in Sources */,
+				942E10B82BC3BD03001E29DE /* ShiftCheck_CanadaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		942E10AB2BC3BD03001E29DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 942E10972BC3BD01001E29DE /* ShiftCheck Canada */;
+			targetProxy = 942E10AA2BC3BD03001E29DE /* PBXContainerItemProxy */;
+		};
+		942E10B52BC3BD03001E29DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 942E10972BC3BD01001E29DE /* ShiftCheck Canada */;
+			targetProxy = 942E10B42BC3BD03001E29DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		942E10BB2BC3BD03001E29DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		942E10BC2BC3BD03001E29DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		942E10BE2BC3BD03001E29DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ShiftCheck Canada/ShiftCheck_Canada.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShiftCheck Canada/Preview Content\"";
+				DEVELOPMENT_TEAM = 52N8G5AS47;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NewsAppSample.ShiftCheck-Canada";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		942E10BF2BC3BD03001E29DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ShiftCheck Canada/ShiftCheck_Canada.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShiftCheck Canada/Preview Content\"";
+				DEVELOPMENT_TEAM = 52N8G5AS47;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NewsAppSample.ShiftCheck-Canada";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		942E10C12BC3BD03001E29DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52N8G5AS47;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NewsAppSample.ShiftCheck-CanadaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShiftCheck Canada.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShiftCheck Canada";
+			};
+			name = Debug;
+		};
+		942E10C22BC3BD03001E29DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52N8G5AS47;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NewsAppSample.ShiftCheck-CanadaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShiftCheck Canada.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShiftCheck Canada";
+			};
+			name = Release;
+		};
+		942E10C42BC3BD03001E29DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52N8G5AS47;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NewsAppSample.ShiftCheck-CanadaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ShiftCheck Canada";
+			};
+			name = Debug;
+		};
+		942E10C52BC3BD03001E29DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52N8G5AS47;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NewsAppSample.ShiftCheck-CanadaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ShiftCheck Canada";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		942E10932BC3BD01001E29DE /* Build configuration list for PBXProject "ShiftCheck Canada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942E10BB2BC3BD03001E29DE /* Debug */,
+				942E10BC2BC3BD03001E29DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		942E10BD2BC3BD03001E29DE /* Build configuration list for PBXNativeTarget "ShiftCheck Canada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942E10BE2BC3BD03001E29DE /* Debug */,
+				942E10BF2BC3BD03001E29DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		942E10C02BC3BD03001E29DE /* Build configuration list for PBXNativeTarget "ShiftCheck CanadaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942E10C12BC3BD03001E29DE /* Debug */,
+				942E10C22BC3BD03001E29DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		942E10C32BC3BD03001E29DE /* Build configuration list for PBXNativeTarget "ShiftCheck CanadaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942E10C42BC3BD03001E29DE /* Debug */,
+				942E10C52BC3BD03001E29DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 942E10902BC3BD01001E29DE /* Project object */;
+}
