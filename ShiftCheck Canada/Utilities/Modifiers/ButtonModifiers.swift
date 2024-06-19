@@ -7,12 +7,41 @@
 
 import SwiftUI
 
-struct ButtonModifiers: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct ButtonModifiers: ViewModifier {
+    let  ModeButton: modeButton
+    func body(content: Content) -> some View {
+        content
+            .font(.headline)
+            .foregroundColor(.white)
+            .frame(maxWidth: .infinity)
+            .frame(height: 50)
+            .background(buttonColor)
+            .cornerRadius(10)
+            .shadow(radius: 10)
+        
+    }
+    
+    
+    var buttonColor: Color {
+        switch ModeButton {
+        case .Save:
+            return .green
+        case .Cancel:
+            return .red
+        case .retry:
+            return .yellow
+        }
+    }
+    
+  
+}
+
+
+extension View {
+    func ButtonStyle(ModeButton : modeButton = .Save) -> some View {
+        modifier(ButtonModifiers(ModeButton: ModeButton))
     }
 }
 
-#Preview {
-    ButtonModifiers()
-}
+
+

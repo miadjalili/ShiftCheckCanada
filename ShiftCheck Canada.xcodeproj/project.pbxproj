@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		940C3C4D2C1B837B000884D6 /* AddWorkspaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C3C4C2C1B837B000884D6 /* AddWorkspaceView.swift */; };
+		940C3C4F2C1B95E2000884D6 /* customTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C3C4E2C1B95E2000884D6 /* customTextField.swift */; };
+		940C3C532C1BC0CF000884D6 /* modeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C3C522C1BC0CF000884D6 /* modeButton.swift */; };
+		940C3C552C1BCBF2000884D6 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C3C542C1BCBF2000884D6 /* UserModel.swift */; };
 		942E109C2BC3BD01001E29DE /* ShiftCheck_CanadaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942E109B2BC3BD01001E29DE /* ShiftCheck_CanadaApp.swift */; };
 		942E109E2BC3BD01001E29DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942E109D2BC3BD01001E29DE /* ContentView.swift */; };
 		942E10A02BC3BD02001E29DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942E109F2BC3BD02001E29DE /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 		942E10AE2BC3BD03001E29DE /* ShiftCheck_CanadaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942E10AD2BC3BD03001E29DE /* ShiftCheck_CanadaTests.swift */; };
 		942E10B82BC3BD03001E29DE /* ShiftCheck_CanadaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942E10B72BC3BD03001E29DE /* ShiftCheck_CanadaUITests.swift */; };
 		942E10BA2BC3BD03001E29DE /* ShiftCheck_CanadaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942E10B92BC3BD03001E29DE /* ShiftCheck_CanadaUITestsLaunchTests.swift */; };
+		94C5E67A2C2205FB000A43EA /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5E6792C2205FB000A43EA /* ButtonModifiers.swift */; };
+		94C5E67C2C221921000A43EA /* ProfileViewNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5E67B2C221921000A43EA /* ProfileViewNavigation.swift */; };
+		94C5E67F2C224D7E000A43EA /* CompanyShiftCell .swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5E67E2C224D7E000A43EA /* CompanyShiftCell .swift */; };
+		94C5E6822C226EC8000A43EA /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C5E6812C226EC8000A43EA /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		940C3C4C2C1B837B000884D6 /* AddWorkspaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkspaceView.swift; sourceTree = "<group>"; };
+		940C3C4E2C1B95E2000884D6 /* customTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTextField.swift; sourceTree = "<group>"; };
+		940C3C522C1BC0CF000884D6 /* modeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modeButton.swift; sourceTree = "<group>"; };
+		940C3C542C1BCBF2000884D6 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		942E10982BC3BD01001E29DE /* ShiftCheck Canada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShiftCheck Canada.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		942E109B2BC3BD01001E29DE /* ShiftCheck_CanadaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftCheck_CanadaApp.swift; sourceTree = "<group>"; };
 		942E109D2BC3BD01001E29DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +57,10 @@
 		942E10B32BC3BD03001E29DE /* ShiftCheck CanadaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShiftCheck CanadaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		942E10B72BC3BD03001E29DE /* ShiftCheck_CanadaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftCheck_CanadaUITests.swift; sourceTree = "<group>"; };
 		942E10B92BC3BD03001E29DE /* ShiftCheck_CanadaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftCheck_CanadaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		94C5E6792C2205FB000A43EA /* ButtonModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifiers.swift; sourceTree = "<group>"; };
+		94C5E67B2C221921000A43EA /* ProfileViewNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewNavigation.swift; sourceTree = "<group>"; };
+		94C5E67E2C224D7E000A43EA /* CompanyShiftCell .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CompanyShiftCell .swift"; sourceTree = "<group>"; };
+		94C5E6812C226EC8000A43EA /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +88,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		940C3C412C1B7A4A000884D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94C5E67D2C224A98000A43EA /* Cell */,
+				940C3C472C1B7AAD000884D6 /* Components */,
+				940C3C4C2C1B837B000884D6 /* AddWorkspaceView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		940C3C422C1B7A57000884D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				940C3C542C1BCBF2000884D6 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		940C3C432C1B7A63000884D6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				94C5E6782C22056F000A43EA /* Modifiers */,
+				940C3C522C1BC0CF000884D6 /* modeButton.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		940C3C442C1B7A6E000884D6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		940C3C452C1B7A79000884D6 /* CoreDate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreDate;
+			sourceTree = "<group>";
+		};
+		940C3C462C1B7A91000884D6 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		940C3C472C1B7AAD000884D6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				940C3C4E2C1B95E2000884D6 /* customTextField.swift */,
+				94C5E67B2C221921000A43EA /* ProfileViewNavigation.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		942E108F2BC3BD01001E29DE = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +168,15 @@
 		942E109A2BC3BD01001E29DE /* ShiftCheck Canada */ = {
 			isa = PBXGroup;
 			children = (
-				942E109B2BC3BD01001E29DE /* ShiftCheck_CanadaApp.swift */,
+				94C5E6802C226EA3000A43EA /* ViewModel */,
+				940C3C462C1B7A91000884D6 /* Animations */,
+				940C3C412C1B7A4A000884D6 /* Views */,
+				940C3C452C1B7A79000884D6 /* CoreDate */,
+				940C3C442C1B7A6E000884D6 /* Networking */,
+				940C3C432C1B7A63000884D6 /* Utilities */,
+				940C3C422C1B7A57000884D6 /* Model */,
 				942E109D2BC3BD01001E29DE /* ContentView.swift */,
+				942E109B2BC3BD01001E29DE /* ShiftCheck_CanadaApp.swift */,
 				942E109F2BC3BD02001E29DE /* Assets.xcassets */,
 				942E10A12BC3BD02001E29DE /* ShiftCheck_Canada.entitlements */,
 				942E10A22BC3BD02001E29DE /* Preview Content */,
@@ -127,6 +207,30 @@
 				942E10B92BC3BD03001E29DE /* ShiftCheck_CanadaUITestsLaunchTests.swift */,
 			);
 			path = "ShiftCheck CanadaUITests";
+			sourceTree = "<group>";
+		};
+		94C5E6782C22056F000A43EA /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				94C5E6792C2205FB000A43EA /* ButtonModifiers.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		94C5E67D2C224A98000A43EA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				94C5E67E2C224D7E000A43EA /* CompanyShiftCell .swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		94C5E6802C226EA3000A43EA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				94C5E6812C226EC8000A43EA /* UserViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +364,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				942E109E2BC3BD01001E29DE /* ContentView.swift in Sources */,
+				94C5E67F2C224D7E000A43EA /* CompanyShiftCell .swift in Sources */,
+				940C3C552C1BCBF2000884D6 /* UserModel.swift in Sources */,
+				94C5E6822C226EC8000A43EA /* UserViewModel.swift in Sources */,
+				94C5E67C2C221921000A43EA /* ProfileViewNavigation.swift in Sources */,
+				940C3C4D2C1B837B000884D6 /* AddWorkspaceView.swift in Sources */,
+				940C3C4F2C1B95E2000884D6 /* customTextField.swift in Sources */,
 				942E109C2BC3BD01001E29DE /* ShiftCheck_CanadaApp.swift in Sources */,
+				940C3C532C1BC0CF000884D6 /* modeButton.swift in Sources */,
+				94C5E67A2C2205FB000A43EA /* ButtonModifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

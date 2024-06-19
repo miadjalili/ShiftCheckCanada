@@ -6,3 +6,28 @@
 //
 
 import Foundation
+
+
+final class UserViewModel: ObservableObject {
+    
+    @Published var userinfo: [UserInfo] = []
+    @Published var isEmpty = true
+    
+    
+    func getUserInfo() async {
+        
+        if userinfo.isEmpty || userinfo.count == 0 {
+            //isEmpty = true
+        }else
+        {
+            loadUserInfoFromCoreData()
+        }
+        
+    }
+    
+    func loadUserInfoFromCoreData() {
+       
+      
+    }
+}
+

@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+enum modeButton {
+    case Save
+    case Cancel
+    case retry
+}

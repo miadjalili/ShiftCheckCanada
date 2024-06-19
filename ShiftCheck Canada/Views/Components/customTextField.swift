@@ -9,25 +9,30 @@ import SwiftUI
 
 struct customTextField: View {
     
-    @State var textFieldText: String = ""
+    @Binding var textFieldText: String
     var textFieldPlaceHolder: String = ""
     var title: String?
     
     var body: some View {
-        VStack {
+        VStack(spacing:5){
             Text(title ?? "Place Holder")
+                .foregroundColor(.black)
+                .font(.callout)
                 .frame(maxWidth: .infinity, alignment: .leading)
-             
+               
             TextField(textFieldPlaceHolder, text: $textFieldText)
                 .padding()
                 .background(Color.gray.opacity(0.3).cornerRadius(10))
-                .foregroundColor(.red)
+                .foregroundColor(.black)
                 .font(.headline)
+                .multilineTextAlignment(.leading)
              
         }
+        .padding(.bottom,10)
     }
 }
 
 #Preview {
-    customTextField()
+    @State var previewText: String = ""
+    customTextField(textFieldText: $previewText)
 }
