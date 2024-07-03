@@ -35,7 +35,9 @@ struct ContentView: View {
                         AddWorkspaceView(userModel: .constant(UserInfo()))
                     }
                     
-                })
+                }
+                       
+                   )
                 
             }else{
                 VStack {
